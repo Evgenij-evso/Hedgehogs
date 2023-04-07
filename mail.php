@@ -4,7 +4,7 @@
     $name = $_POST['name']
     $email = $_POST['email']
 
-    $to      = 'dompoetov@gmail.com';
+    $to      = 'ev.s.o251108@gmail.com';
     $subject = 'HEDGEHOG';
     $message = 'Заявка с HEDGEHOG' . '<br>' . 
                 'Имя -' . $name . '<br>' . 
@@ -13,5 +13,5 @@
     $headers = 'From: dompoetov@gmail.com'       . "\r\n" .
                  'Reply-To: dompoetov@gmail.com' . "\r\n" .
                  'X-Mailer: PHP/' . phpversion();
-    mail($to, $subject, $message, $headers);
+    mail($to, $subject, $message);
 ?>
