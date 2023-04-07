@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    display: grid;
+    justify-content: center;
+    overflow-x: hidden;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.ContainerBody{
+    width: 1000px;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0);
+    display: table;
+    justify-content: center;
+
+}
+.DivBabidjon{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+}
+.Logo{
+    width: 150px;
+    height: 100px;
+    background: rgb(139, 5, 228);
+}
+.Size{
+    width: 15%;
+    height: 30%;
+}
+.courses{
+    font-family: 'Nunito', sans-serif;
+    margin-left: 10%;
+    background: rgb(69, 181, 209);
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.feedback{
+    font-family: 'Nunito', sans-serif;
+    margin-left: 4%;
+    background: rgb(69, 181, 209);
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.Phone{
+    font-family: 'Nunito', sans-serif;
+    margin-left: 4%;
+    width: 40%;
+    background: rgb(22, 139, 47);
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.FAQA{
+    font-family: 'Nunito', sans-serif;
+    margin-left: 4%;
+    background: rgb(69, 181, 209);
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.LogoImg{
+    height: 100%;
+    margin-left: 2%;
+}
+
+.TextDivingIn{
+    position: relative;
+    font-size: 55px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    z-index: 2;
+    
+}
+.DivDigital{
+    position: relative;
+    width: 55%;
+    height: 22%;
+    background-color: #F8CE55;
+    border-radius: 25px;
+    transform: rotate(-5deg);
+    top: -5%;
+    left: 4%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TextDigital{
+    font-size: 50px;
+    margin: auto;
+}
+.humanLogo{
+    position: relative;
+    height: 400px;
+    top: -35%;
+    left: 36%;
+    transform: rotateY(180deg);
+}
+.ButtonTryIt{
+    position: relative;
+    width: 60%;
+    height: 30%;
+    top: -65%;
+    left: 5%;
+    border-radius: 10px;
+    background-color: #d64e2e;
+    background-image: linear-gradient(90deg, #d64e2e 0%, #dac0c0 50%, #d64e2e 100%);
+    box-shadow: 0px 10px 25px #d64d2e94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DivBlue{
+    width: 95%;
+    height: 225px;
+    margin-top: 4%;
+    background-color: #53b9ea;
+    border:25px solid #53baea00;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px 0px #53baea86;
+}
+.ATryIt{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.TextCildren{
+    position: relative;
+    font-size: 30px;
+    top: -75%;
+    left: 5%;
+}
+.TextInDivBlue{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+.DivArrow{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.Arrow{
+    width: 25px;
+    margin-left: 2%;
+    margin-top: -5%;
+}
+.TextArrow{
+    font-size: 25px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 2%;
+}
+.BorderText{
+    position: static;
+    width: 45%;
+    height: 20%;
+    font-size: 25px;
+    margin-top: -4%;
+    margin-left: 63%;
+    transform: rotate(-2deg);
+    background-color: #5aa85c;
+    color: white;
+    border: 6px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContainerBody{
+    width: 1000px;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0);
+    display: table;
+    justify-content: center;
+}
+.BlueBackground{
+    background-color: #53b9ea;
+    width: 100vw;
+    height: 100vh;
+
+}
+.BlueContainerBody{
+    background-color: #53b9ea;
+    width: 95%;
+    height: 1080px;
+    margin-top: 10vh;
+    border: 25px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    display: table;
+    justify-content: center;
+}
+
+.TextMyCoutses{
+    font-size: 45px;
+    color: white;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Courses{
+    width:  1000px;
+    height: 1000px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.RowCourses1{
+    width: 1000px;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SizeCourses{
+    width: 35%;
+    height: 90%;
+    margin: 0;
+    margin-right: 3%;
+    margin-left: 3%;
+    background-color: rgb(253, 41, 41);
+    border: 15px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+}
+.YearBlocker{
+    position: relative;
+    left: 47%;
+    top: -12%;
+    font-size: 18px;
+    width: 25%;
+    border: 12px solid #f8ce55;
+    background-color: #F8CE55;
+    border-radius: 25px;
+    color: white;
+    transform: rotate(-3deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FontStyle{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.DivVideoCourses{
+    background-color: #f8ce55;
+    color: black;
+}
+.DivCreateGame{
+    background-color: #5aa85c;
+    
+}
+.DivWebDesigner{
+    background-color: #5aa85c;
+    
+}
+.DivProgrammerPython{
+    background-color: #f8ce55;
+    color: black;
+}
+.Div3DDesigner{
+    background-color: #d64e2e;
+    color: black;
+}
+
+.ProgrammerPython{
+    font-size: 26px;
+}
+.Green{
+    border: 12px solid #5aa85c;
+    background-color: #5aa85c;
+}
+.TextInfoCourses{
+    position: relative;
+    top: -10%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DivCourses{
+    position: relative;
+    top: -15%;
+    left: 29%;
+    right: 29%;
+    border-radius: 4px;
+    width: 40%;
+    height: 15%;
+    background-image: linear-gradient(90deg, #d64e2e 0%, #dac0c0 50%, #d64e2e 100%);
+    box-shadow: 0px 10px 25px #d64d2e94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DivCourses1{
+    position: relative;
+    top: -2%;
+    width: 40%;
+    height: 15%;
+    background-image: linear-gradient(90deg, #d64e2e 0%, #dac0c0 50%, #d64e2e 100%);
+    box-shadow: 0px 10px 25px #d64d2e94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DivCoursesGold{
+    background-color: #f7cc54;
+    background-image: linear-gradient(270deg, #f7cc54 0%, #e46243 50%, #f7cc54 100%);
+    box-shadow: 0px 0px 30px #f7cc54;
+}
+.ButtonCourses{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.BlackText{
+    color: black;
+}
+.GLDivSchedule{
+    width: 95%;
+    height: 600px;
+    border: 25px solid rgba(228, 0, 0, 0);
+    margin-top: 50px;
+    display: table;
+    justify-content: center;
+
+}
+.HSchedule{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ScheduleRowContainer{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContainerSchedule{
+    width: 45%;
+    height: 90%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NumSchedule{
+    font-size: 35px;
+    width: 20px;
+    height: 20px;
+    border: 20px solid rgba(0, 128, 0, 0);
+    background-color: #5aa85c;
+    color: white;
+    border-radius: 35px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TextSchedule{
+    font-size: 25px;
+}
+.ColorYellow{
+    border: 20px solid #f8cf5500;
+    background-color: #f8ce55;
+    color: black;
+}
+.GLDivTestTasks{
+    background-color: #53b9ea;
+    width: 95%;
+    height: 600px;
+    margin-top: 5vh;
+    border: 25px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    display: table;
+    justify-content: center;
+}
+.GlHTestTasks{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GlPTestTasks{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.TestTasksRowContainer{
+    width: 100%;
+    height: 275px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContainerTestTasks{
+    background-color: #5aa85c;
+    width: 45%;
+    height: 60%;
+    border: 25px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.NumTestTasks{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TextTestTasks{
+    font-size: 25px;
+    text-align: center;
+}
+.RandomName{
+    font-size: 35px;
+    width: 25px;
+    height: 25px;
+    border: 15px solid #d64e2e;
+    background-color: #d64e2e;
+    color: white;
+    border-radius: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ColorYellowTestTasks{
+    background-color: #f8ce55;
+}
+.GLDivReviews{
+    width: 95%;
+    height: 600px;
+    margin-top: 5vh;
+    border: 25px solid rgba(0, 0, 0, 0);
+    display: table;
+    justify-content: center;
+}
+.ImgReviews{
+    width: 100%;
+}
+.GlHReviews{
+    font-size: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WhiteText{
+    color: white;
+}
+.GlFAQContainer{
+    background-color: #53b9ea;
+    width: 95%;
+    height: 1200px;
+    margin-top: 5vh;
+    border: 25px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    display: table;
+    justify-content: center;
+}
+.HFAQ{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FAQH{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContainerFAQ{
+    width: 75%;
+    height: 200px;
+    margin: auto;
+    background-color: #F8CE55;
+    border: 25px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    margin-top: 50px;
+    display: table;
+    justify-content: center;
+}
+.FAQConteinerAnsver{
+    width: 95%;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+.PAnsver{
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GLSingUpCourse{
+    width: 95%;
+    height: 600px;
+    margin-top: 5vh;
+    border: 25px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    display: table;
+    justify-content: center;
+}
+.HSUCourse{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DivSUCourse{
+    width: 50%;
+    height: 600px;
+    margin: auto;
+    background-color: #f8ce55;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+
+    display: table;
+    justify-content: center;
+}
+.H{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Input{
+    width: 80%;
+    height: 35px;
+    border: 10px solid white;
+    border-radius: 5px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+.SizeButtonSUCourse{
+    width: 70%;
+    height: 75px;
+    background-image: linear-gradient(90deg, #d64e2e 0%, #dac0c0 50%, #d64e2e 100%);
+
+    border-radius: 5px;
+    margin: auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    z-index: 1000;
+}
+footer{
+    width: 95%;
+    height: 300px;
+    margin-top: 50px;
+    padding: 25px;
+    display: flex;
+}
+.Contact{
+    font-size: 30px;
+    width: 150px;
+    height: 35px;
+}
+footer{
+    background-color: #53b9ea;
+    border-radius: 10px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+nav{
+    width: auto;
+    height: 75px;
+    padding: 0;
+}
+li{
+    list-style: none;
+    margin: 0 7.5px;
+}
+ul{
+    display: flex;
+    padding: 0;
+}
+.imgCont{
+    width: 50px;
+}
+.SliderUp{
+    opacity: 0;
+    background-color: rgb(29, 29, 29);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7.5px 20px;
+    gap: 10px;
+    width: 233.5px;
+    height: 30px;
+    border-radius: 2px;
+
+    top: 100vh;
+    left: calc(100vw / 2 - 133.5px);
+    z-index: 100000000;
+}
+.SliderP{
+    color: rgb(205, 205, 205);
+    font-size: 17px;
+}
+@media(max-width: 1190px){
+    .BorderText {
+        position: static;
+        width: 37%;
+        height: 13%;
+        font-size: 21px;
+        margin-top: -4%;
+        margin-left: 63%;
+        transform: rotate(-2deg);
+        background-color: #5aa85c;
+        color: white;
+        border: 6px solid rgba(255, 255, 255, 0);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .LogoImg{
+        margin:0;
+      }
+}
