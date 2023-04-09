@@ -10,7 +10,7 @@
                 'Имя -' . $name . '<br>' . 
                 'Телефон - ' . $phone . '<br>' . 
                 'Email - ' . $email;
-    $headers = 'From: dompoetov@gmail.com'       . "\r\n" .
+    $headers = 'From: evgenij-evso.github.io/Hedgehogs/'       . "\r\n" .
                  'Reply-To: dompoetov@gmail.com' . "\r\n" .
                  'X-Mailer: PHP/' . phpversion();
     mail($to, $subject, $message);
