@@ -632,7 +632,7 @@ footer{
 }
 nav{
     width: auto;
-    height: 75px;
+    height: 125px;
     padding: 0;
 }
 li{
@@ -684,7 +684,19 @@ ul{
         justify-content: center;
         align-items: center;
       }
-      .LogoImg{
+    .LogoImg{
         margin:0;
-      }
+    }
+    .M{
+        margin-left: 1%;
+    }
+    .imgCont{
+        width: 100px;
+    }
+    .Contact{
+        display: none;
+    }
+    footer{
+        justify-content: center;
+    }
 }
