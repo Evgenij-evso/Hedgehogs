@@ -1,6 +1,6 @@
-let CourseBut = document.querySelector('.courses')
-let ReviewsBut = document.querySelector('.feedback')
-let FAQBut = document.querySelector('.FAQA')
+let CourseBut = document.querySelector('.C')
+let ReviewsBut = document.querySelector('.R')
+let FAQBut = document.querySelector('.F')
 
 let AnchorCourse  = document.querySelector('.BlueContainerBody')
 let AnchorReviews  = document.querySelector('.GLDivReviews')
