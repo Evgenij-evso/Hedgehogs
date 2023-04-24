@@ -19,6 +19,7 @@ a{
     justify-content: center;
 
 }
+
 .DivBabidjon{
     width: 100%;
     height: 500px;
@@ -72,7 +73,10 @@ header{
     border-radius: 10px;
 }
 
-
+.div__blue__display{
+    width: auto;
+    height: auto;
+}
 .FAQA{
     font-family: 'Nunito', sans-serif;
     margin-left: 4%;
@@ -773,13 +777,19 @@ ul{
         font-size: 50px;
         text-align: center;
     }
+    .div__blue__display{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .DivBlue{
-        width: 95vw;
+        width: 90%;
         height: auto;
-
-        margin: auto;
+        padding: 2.5%;
+        margin: 0;
 
     }
+    
     .BorderText{
         display: none;
     }
